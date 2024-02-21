@@ -5,7 +5,7 @@ const inputFlavors = prompt(
 )
 
 // Split flavors into an array of strings
-const flavorArray = inputFlavors.split(",");
+const flavorArray = inputFlavors.split(",").map((s) => s.trim());
 
 console.log(flavorArray);
 
